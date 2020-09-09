@@ -13,7 +13,7 @@ public class Dish {
     }
 
     public String toString(){
-        return title + "/n" + description + "/n" + price;
+        return title + "\n" + description + "\n" + "$" + price;
     }
 
 }
